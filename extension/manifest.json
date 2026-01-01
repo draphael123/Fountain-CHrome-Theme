@@ -1,0 +1,45 @@
+{
+  "manifest_version": 3,
+  "name": "Fountain.net Theme",
+  "version": "1.0.0",
+  "description": "A beautiful Chrome theme inspired by Fountain.net's design",
+  "theme": {
+    "colors": {
+      "frame": [32, 35, 42],
+      "frame_inactive": [24, 26, 32],
+      "frame_incognito": [36, 38, 44],
+      "frame_incognito_inactive": [28, 30, 36],
+      "background_tab": [40, 43, 50],
+      "tab_text": [240, 240, 240],
+      "tab_background_text": [180, 180, 180],
+      "tab_background_text_inactive": [120, 120, 120],
+      "tab_background_text_incognito": [220, 220, 220],
+      "bookmark_text": [240, 240, 240],
+      "toolbar": [42, 45, 52],
+      "toolbar_text": [240, 240, 240],
+      "toolbar_field": [50, 53, 60],
+      "toolbar_field_text": [240, 240, 240],
+      "toolbar_top_separator": [60, 63, 70],
+      "toolbar_vertical_separator": [60, 63, 70],
+      "toolbar_bottom_separator": [60, 63, 70],
+      "toolbar_button_icon": [200, 200, 200],
+      "ntp_background": [28, 31, 38],
+      "ntp_text": [240, 240, 240],
+      "button_background": [60, 130, 220]
+    },
+    "tints": {
+      "buttons": [0.5, 0.5, 0.9],
+      "frame": [0.6, 0.6, 0.8],
+      "frame_inactive": [0.55, 0.55, 0.75],
+      "frame_incognito": [0.6, 0.6, 0.85],
+      "frame_incognito_inactive": [0.55, 0.55, 0.8],
+      "background_tab": [0.55, 0.55, 0.8]
+    },
+    "properties": {
+      "ntp_background_alignment": "center",
+      "ntp_background_repeat": "no-repeat",
+      "ntp_logo_alternate": 1
+    }
+  }
+}
+
