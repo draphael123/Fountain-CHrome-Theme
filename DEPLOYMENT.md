@@ -67,8 +67,19 @@ No environment variables are required for this project.
 ### Build Settings (if manually configuring)
 
 - **Framework Preset**: Next.js
-- **Root Directory**: `web`
+- **Root Directory**: `web` ⚠️ **This is critical - must be set to `web`**
 - **Build Command**: `npm run build` (default)
-- **Output Directory**: `out` (set in next.config.js)
+- **Output Directory**: `.next` (default for Next.js)
 - **Install Command**: `npm install` (default)
+
+### Troubleshooting 404 Errors
+
+If you see a 404 error on Vercel:
+1. Go to your project settings in Vercel dashboard
+2. Navigate to "Settings" → "General"
+3. Under "Root Directory", make sure it's set to `web`
+4. Click "Save"
+5. Redeploy your project
+
+The Root Directory setting tells Vercel where your Next.js app is located in the repository.
 
