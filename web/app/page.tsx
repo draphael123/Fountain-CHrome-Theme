@@ -23,12 +23,27 @@ export default function Home() {
         <header className={styles.header}>
           <div className={styles.logo}>
             <div className={styles.logoIcon}>🌊</div>
-            <h1 className={styles.title}>Fountain.net Theme</h1>
+            <h1 className={styles.title}>Fountain.net Chrome Theme</h1>
           </div>
           <p className={styles.subtitle}>
-            A beautiful Chrome theme inspired by Fountain.net's elegant design
+            Transform your Chrome browser with a beautiful dark theme inspired by Fountain.net's elegant design
           </p>
         </header>
+
+        <section className={styles.about}>
+          <h2>What is This?</h2>
+          <p className={styles.description}>
+            The Fountain.net Chrome Theme is a custom browser theme extension that gives your Chrome browser 
+            a sleek, modern dark appearance. It changes the colors of your browser's interface—including the 
+            address bar, tabs, bookmarks bar, and new tab page—to create a cohesive, eye-friendly browsing 
+            experience inspired by Fountain.net's aesthetic.
+          </p>
+          <p className={styles.description}>
+            This is a Chrome extension that applies a custom theme to your browser. It's completely free, 
+            open-source, and easy to install. No data collection, no tracking—just a beautiful theme for 
+            your browser.
+          </p>
+        </section>
 
         <div className={styles.content}>
           <section className={styles.preview}>
