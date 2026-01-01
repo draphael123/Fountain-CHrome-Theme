@@ -71,20 +71,38 @@ export default function Home() {
           </section>
 
           <section className={styles.features}>
-            <div className={styles.feature}>
-              <div className={styles.featureIcon}>🎨</div>
-              <h3>Beautiful Design</h3>
-              <p>Inspired by Fountain.net's clean and modern aesthetic</p>
-            </div>
-            <div className={styles.feature}>
-              <div className={styles.featureIcon}>🌙</div>
-              <h3>Dark Theme</h3>
-              <p>Easy on the eyes with carefully selected colors</p>
-            </div>
-            <div className={styles.feature}>
-              <div className={styles.featureIcon}>⚡</div>
-              <h3>Fast & Lightweight</h3>
-              <p>Minimal performance impact on your browser</p>
+            <h2 className={styles.featuresTitle}>Key Features</h2>
+            <div className={styles.featuresGrid}>
+              <div className={styles.feature}>
+                <div className={styles.featureIcon}>🎨</div>
+                <h3>Beautiful Design</h3>
+                <p>Inspired by Fountain.net's clean and modern aesthetic with carefully selected color palettes</p>
+              </div>
+              <div className={styles.feature}>
+                <div className={styles.featureIcon}>🌙</div>
+                <h3>Dark Theme</h3>
+                <p>Easy on the eyes with a sophisticated dark color scheme perfect for extended browsing</p>
+              </div>
+              <div className={styles.feature}>
+                <div className={styles.featureIcon}>⚡</div>
+                <h3>Fast & Lightweight</h3>
+                <p>Zero performance impact - the theme is applied instantly without slowing down your browser</p>
+              </div>
+              <div className={styles.feature}>
+                <div className={styles.featureIcon}>🔒</div>
+                <h3>Privacy First</h3>
+                <p>No data collection, no tracking, no external requests - completely private and secure</p>
+              </div>
+              <div className={styles.feature}>
+                <div className={styles.featureIcon}>🆓</div>
+                <h3>Free & Open Source</h3>
+                <p>Completely free to use and modify. Source code available on GitHub</p>
+              </div>
+              <div className={styles.feature}>
+                <div className={styles.featureIcon}>🎯</div>
+                <h3>Easy Installation</h3>
+                <p>Simple setup process - download, extract, and load into Chrome in minutes</p>
+              </div>
             </div>
           </section>
 
