@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  // Removed output: 'export' to let Vercel handle Next.js natively
+  // This provides better performance and features
   images: {
     unoptimized: true
   }

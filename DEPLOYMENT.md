@@ -41,13 +41,18 @@
 
 3. Click "Add New Project".
 
-4. Import your GitHub repository.
+4. Import your GitHub repository: `draphael123/Fountain-CHrome-Theme`
 
-5. Vercel will automatically detect Next.js and configure the build settings.
+5. **IMPORTANT**: In the project configuration:
+   - Set **Root Directory** to `web`
+   - Framework Preset should auto-detect as "Next.js"
+   - Build Command: `npm run build` (default)
+   - Output Directory: `.next` (default)
+   - Install Command: `npm install` (default)
 
-6. The root directory should be set to `web` (or you can configure it in project settings).
+6. Click "Deploy".
 
-7. Click "Deploy".
+**Note**: Make sure the Root Directory is set to `web` in the Vercel project settings. This is the most common cause of 404 errors.
 
 ### Important Notes
 
